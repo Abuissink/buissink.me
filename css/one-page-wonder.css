@@ -14,6 +14,9 @@ body {
 
 .nav{
     font-family: 'Raleway', sans-serif;
+}
+
+.nav:active {
     font-weight: bold;
 }
 
@@ -79,10 +82,13 @@ p {
     font-weight: bold;
 }
 
-.navbar {
+/*.navbar {
     background-color: #1565C0;
 }
-
+*/
+.navbar-brand{
+    
+}
 .navbar-nav{
     color: #ffffff;
 }
