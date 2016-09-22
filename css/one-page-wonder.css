@@ -12,7 +12,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.body{
+.nav{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
@@ -60,6 +60,16 @@ body {
 .btn-tumblr {
     background: #35465c;
 	border-color: #021329;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.btn-contact{
+    background-color: #1976D2;
+    color: #ffffff;
+    width: 30%;
 }
 p {
     font-family: 'Raleway', sans-serif;
