@@ -1,8 +1,0 @@
-buissink.me
-mail.buissink.me IN CNAME privateemail.com.
-MX mx1.privateemail.com.
-TXT v=spf1 include:spf.privateemail.com ~all
-MX mx2.privateemail.com.
-autodiscover.buissink.me IN CNAME privateemail.com.
-autoconfig.buissink.me IN CNAME privateemail.com.
-_autodiscover._tcp.buissink.me IN SRV 0 443 privateemail.com.
