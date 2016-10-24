@@ -185,15 +185,15 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
+    -webkit-transition: padding 0.1s;
+    -moz-transition: padding 0.1s;
+    transition: padding 0.1s;
   }
   .navbar-custom .navbar-brand {
     font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
   }
   .navbar-custom.affix {
     padding: 10px 0;
@@ -239,14 +239,14 @@ ul.footer {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgb(227,28,61);
+  background: rgba(227,28,61,0.7);
   position: absolute;
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
+  transition: all ease 0.25s;
+  -webkit-transition: all ease 0.25s;
+  -moz-transition: all ease 0.25s;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
@@ -548,10 +548,10 @@ fieldset[disabled] .btn-success.active {
   display: none;
 }
 
-span.lead {
+/*.lead {
     font-weight: bold;
     font-size: 1.25em;
-}
+}*/
 
 div.vertcent  {
     margin-bottom: 0px !important;
