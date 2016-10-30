@@ -566,3 +566,24 @@ div.vertcent  {
 .alertus{
     border-color: #e31c3d;
 }
+
+p.quote {
+    font-family: "Merriweather", serif;
+}
+
+blockquote {
+    border-left: 5px solid #02bfe7;
+}
+
+blockquote.blockquote-reverse {
+    border-right: 5px solid #e31c3d;
+}
+
+blockquote > footer {
+    font-size: 105%;
+    text-align: left;
+}
+
+blockquote.blockquote-reverse > footer{
+    text-align: right;
+}
