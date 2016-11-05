@@ -587,3 +587,8 @@ blockquote > footer {
 blockquote.blockquote-reverse > footer{
     text-align: right;
 }
+
+
+a.navbar-brand > img {
+    width:55%;
+}
