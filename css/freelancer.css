@@ -588,7 +588,7 @@ blockquote.blockquote-reverse > footer{
     text-align: right;
 }
 #upto {
-    background-image: url(/img/chatbackground.png)
+    background-color: #323a45;
 }
 .btn-chat {
     background-color: white;
