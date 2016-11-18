@@ -634,3 +634,8 @@ color: white;
     text-transform: none;
     font-weight: normal;
 }
+
+.titlelogo {
+    width: 150px;
+    background-color: #112e51;
+}
