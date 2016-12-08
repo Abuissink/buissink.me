@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
 }
 hr.star-light,
@@ -50,7 +50,7 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
+  /*content: "\f005"; */
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
@@ -81,11 +81,12 @@ hr.star-primary:after {
 
 
 hr.red {
-  border-color: #e31c3d;
+  border-color: #cd2026;
 }
 hr.red:after {
   background-color: white;
-  color: #e31c3d;
+  color: #cd2026;
+  color: #cd2026;
 }
 
 .img-centered {
@@ -110,6 +111,7 @@ header .intro-text .name {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
+    color: black;
 }
 header .intro-text .skills {
   font-size: 1.25em;
@@ -128,7 +130,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #112e51;
+    color: black;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -263,7 +265,7 @@ ul.footer {
 }
 
 .red {
-    color: #e31c3d;
+    color: #cd2026;
 }
 
 .blue {
@@ -346,14 +348,15 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #205493;
+  background-image: url(../img/funk/hero_invert.png);
+background-size: 100%;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #112e51;
+    background-color: #981b1e;
 }
 .btn-outline {
   color: white;
@@ -588,7 +591,8 @@ blockquote.blockquote-reverse > footer{
     text-align: right;
 }
 #upto {
-    background-color: #323a45;
+    background-image: url(../img/funk/hero_grey.png);
+    background-size: 100%;
 }
 .btn-chat {
     background-color: white;
@@ -627,15 +631,48 @@ color: white;
 
 .description {
     text-transform: none;
+    color: #333;
 }
 
 .bigquote {
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-transform: none;
     font-weight: normal;
 }
 
 .titlelogo {
     width: 150px;
-    background-color: #112e51;
+}
+
+.polka {
+    background-image: url(../img/funk/hero.png);
+    background-size: 100%;
+}
+
+body {
+    background-image: url(../img/funk/main.png);
+    background-size: 100%;
+}
+
+.btn-hdr {
+    border-radius: 100%;
+    border-color: #cd2026;
+    background-color: #cd2026; 
+}
+
+.btn-hdr < a:hover{
+    color: #cd2026;
+}
+
+.mont {
+    font-family: "Montserrat";
+}
+
+.navbar-brand{
+    width: 150px;
+    height: 90px;
+}
+
+.contact{
+    background-color: #e59393;
 }
